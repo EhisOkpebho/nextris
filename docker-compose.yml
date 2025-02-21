@@ -3,7 +3,7 @@ services:
   nextris:
     container_name: 'nextris'
     ports:
-      - "3015:3000"
+      - "1504:3000"
     build:
       context: .
     restart: no
